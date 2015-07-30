@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/JimmyMakesThings/react-cloudinary-img/issues"
   },
-  "homepage": "https://github.com/JimmyMakesThings/react-cloudinary-img#readme"
+  "homepage": "https://github.com/JimmyMakesThings/react-cloudinary-img#readme",
+  "dependencies": {
+    "cloudinary": "^1.2.2"
+  }
 }
