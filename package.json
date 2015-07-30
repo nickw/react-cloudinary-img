@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/JimmyMakesThings/react-cloudinary-img#readme",
   "dependencies": {
-    "cloudinary": "^1.2.2"
+    "cloudinary": "^1.2.2",
+    "react": "^0.13.3"
   }
 }
