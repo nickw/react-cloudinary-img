@@ -1,0 +1,24 @@
+{
+  "name": "react-cloudinary-img",
+  "version": "0.0.1",
+  "description": "A React component for rendering Cloudinary images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimmyMakesThings/react-cloudinary-img.git"
+  },
+  "keywords": [
+    "react",
+    "cloudinary",
+    "image"
+  ],
+  "author": "Edmond Leung",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/JimmyMakesThings/react-cloudinary-img/issues"
+  },
+  "homepage": "https://github.com/JimmyMakesThings/react-cloudinary-img#readme"
+}
