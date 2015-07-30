@@ -24,5 +24,8 @@
   "dependencies": {
     "cloudinary": "^1.2.2",
     "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel": "^5.8.19"
   }
 }
