@@ -20,6 +20,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _objectAssign = require('object-assign');
+
+var _objectAssign2 = _interopRequireDefault(_objectAssign);
+
 var CloudinaryImage = (function (_Component) {
   _inherits(CloudinaryImage, _Component);
 
@@ -34,11 +38,17 @@ var CloudinaryImage = (function (_Component) {
     value: function render() {
       var cloudinaryUtils = require('cloudinary/lib/utils');
 
+      var options = this.props.options;
       var _props = this.props;
       var image = _props.image;
-      var options = _props.options;
+      var _props$cloudName = _props.cloudName;
+      var cloudName = _props$cloudName === undefined ? this.context.cloudName : _props$cloudName;
 
       var publicId = typeof image === 'object' ? image.public_id : image;
+
+      if (cloudName) {
+        options = (0, _objectAssign2['default'])({}, options, { cloud_name: cloudName });
+      }
 
       if (publicId) {
         var url = cloudinaryUtils.url(publicId, options);
@@ -54,12 +64,17 @@ var CloudinaryImage = (function (_Component) {
 
 CloudinaryImage.propTypes = {
   image: _react2['default'].PropTypes.oneOfType([_react2['default'].PropTypes.object, _react2['default'].PropTypes.string]),
+  cloudName: _react2['default'].PropTypes.string,
   options: _react2['default'].PropTypes.shape({
     width: _react2['default'].PropTypes.number,
     height: _react2['default'].PropTypes.number,
     gravity: _react2['default'].PropTypes.string,
     crop: _react2['default'].PropTypes.string
   })
+};
+
+CloudinaryImage.contextTypes = {
+  cloudName: _react2['default'].PropTypes.string
 };
 
 exports['default'] = CloudinaryImage;
