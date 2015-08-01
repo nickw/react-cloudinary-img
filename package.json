@@ -1,6 +1,6 @@
 {
   "name": "react-cloudinary-img",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A React component for rendering Cloudinary images",
   "main": "dist/index.js",
   "scripts": {
