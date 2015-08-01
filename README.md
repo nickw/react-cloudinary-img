@@ -1,6 +1,6 @@
 # react-cloudinary-img
 
-A component to help render a Cloudinary image.
+A React component for rendering Cloudinary images.
 
 ## Installation
 
