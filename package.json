@@ -17,7 +17,7 @@
     "image"
   ],
   "author": "Edmond Leung",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/JimmyMakesThings/react-cloudinary-img/issues"
   },
