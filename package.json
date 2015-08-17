@@ -23,11 +23,8 @@
   },
   "homepage": "https://github.com/JimmyMakesThings/react-cloudinary-img#readme",
   "dependencies": {
-    "cloudinary": "https://github.com/nickw/cloudinary_npm/archive/8b6e77124c54dcb2406a215d607879361e565c9c.tar.gz",
+    "cloudinary": "https://github.com/nickw/cloudinary_npm/archive/38c34ee43b3af4f248de38bb48ea58128a13dab2.tar.gz",
     "object-assign": "^3.0.0",
     "react": "^0.13.3"
-  },
-  "devDependencies": {
-    "babel": "^5.8.19"
   }
 }
